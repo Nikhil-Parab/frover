@@ -4,7 +4,7 @@ Smart meeting memory that finds discussions and connects related topics across a
 
 ## Environment Setup
 
-Create a `.env` file:
+Create a `.env` file:(make the file in rag-agent-pinecone folder)
 
 ```
 PINECONE_API_KEY=your-pinecone-api-key
