@@ -1,0 +1,18 @@
+name = "rag-agent-pinecone"
+main = "src/index.ts"
+compatibility_date = "2024-05-01"
+
+[vars]
+PINECONE_API_KEY = "pcsk_4EmgA5_Sv6uLtSpW19Qx8YsXbqWxijaTjRJRXP9d8URhVJLVC1z7kTLLpoCByGAcVd9g2p"
+PINECONE_ENVIRONMENT = "us-east-1-aws"
+PINECONE_INDEX_NAME = "conversation-history"
+PINECONE_INDEX_URL = "https://conversation-history-rhlzzit.svc.aped-4627-b74a.pinecone.io"
+OPENAI_API_KEY = "your-openai-api-key-here"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "RAG_CACHE"
+id = "4f6ea2574cb04cfeb36fca4046b05200"
+preview_id = "50e1f38953b342de874718d04f90f49c"

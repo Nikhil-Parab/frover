@@ -1,0 +1,1 @@
+{"id":"react_hook","content":"useState is a React hook that adds state to functional components. Import it from React, then call useState(initialValue) which returns [state, setState]. Example: const [count, setCount] = useState(0);","metadata":{"userId":"dev_user","type":"code"}}
